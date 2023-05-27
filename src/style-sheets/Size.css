@@ -1,0 +1,60 @@
+.selected {
+    background-color:hsl(0, 0%, 41%);
+    color: white;
+    font-weight: 300;
+  }
+
+.selected:active {
+    border: 1px solid rgb(12, 12, 12); /* Estilo de selección */
+  }
+
+.selected:focus {
+   border: 1px solid rgb(7, 7, 7); /* Estilo de selección */
+}
+  .size{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 20%;
+    border-top: 1px solid hsla(0, 2%, 76%, 0.954);
+    font-size: 1.5vh;
+  }
+  
+  .main-size{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 75%;
+    width: 100%;
+  }
+
+  .title-size{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+  
+  .options-size{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    height: auto;
+  }
+
+  .select-list{
+    border: 0;
+  }
+
+  .letter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid hsla(0, 0%, 95%, 0.954);
+    font-size: 1.5vh;
+    padding: 15%;
+    cursor: pointer;
+    
+  }

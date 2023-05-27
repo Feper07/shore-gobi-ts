@@ -1,0 +1,81 @@
+.selected-gender{
+  background-color:hsl(0, 0%, 41%);
+  color: white;
+}
+
+.selected-gender:active {
+  border: 1px solid rgb(12, 12, 12); /* Estilo de selección */
+}
+
+.selected-gender:focus {
+ border: 1px solid rgb(7, 7, 7); /* Estilo de selección */
+}
+
+.gender{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  min-height: 40%;
+  border-top: 1px solid hsla(0, 2%, 76%, 0.954);
+  font-size: 1.5vh;
+}
+
+.main-gender{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 85%;
+  width: 100%;
+}
+
+.title-gender{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.options-gender{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 10px;
+  width: 100%;
+  grid-gap: .5rem;
+}
+
+.text-select-gender{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: space-around;
+  gap: 4px;
+}
+
+.description-select-gender{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.list-gender{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 1.4vh;
+  padding-top: 5%;
+}
+
+.select-list{
+  border: 0;
+}
+
+.letter-gender{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid hsla(0, 2%, 76%, 0.954);
+  font-size: 2vh;
+  padding: 15%;
+  color: white;
+  cursor: pointer;
+}

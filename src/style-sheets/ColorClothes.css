@@ -1,0 +1,56 @@
+.selected-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_select{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.img_tile {
+    width: 100%;
+    max-width: 125px;
+    height: auto;
+    padding: 2%;
+}
+
+.container-main-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description{
+    padding: 3%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 0.8vw;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 45%;
+    color: transparent;
+    padding: 3%;
+    cursor: pointer;
+}
+
+.color-tile{
+    border-radius: 60%;
+    width: 1.6vh;
+    height: 1.6vh;
+    border: 0.5px solid rgba(0, 0, 0, 0.084);
+}
+
+.worth{
+    font-size: 0.8vw;
+    font-weight: 700;
+}
+
+

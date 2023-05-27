@@ -1,0 +1,9 @@
+.selectedListgender{
+    color: rgb(137, 135, 135);
+    font-weight: 300;
+  }
+
+.letterListgender{
+  padding-top: 2%;
+  cursor: pointer;
+}

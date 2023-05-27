@@ -1,0 +1,137 @@
+.selected-color-style{
+  background-color:hsl(0, 12%, 65%);
+  color: white;
+}
+
+.selected-color-style:active {
+  border: 1px solid rgb(12, 12, 12); /* Estilo de selección */
+}
+
+.selected-color-style:focus{
+ border: 1px solid rgb(7, 7, 7); /* Estilo de selección */
+}
+
+.color-select-option{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-top: 1px solid hsla(0, 2%, 76%, 0.954);
+    height: 20%;
+  }
+
+  .main-color{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80%;
+  }
+
+  .title-color{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5vh;
+  }
+  
+  .options-color2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    color: transparent;
+    cursor: pointer;
+  }
+  
+  .letter-colora{
+    background-color: #c49385;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid hsla(0, 2%, 76%, 0.954);
+    font-size: 1.5vh;
+    padding: 15%;
+    cursor: pointer;
+  }
+
+  .letter-colorb{
+    background-color: #d2d0cc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid hsla(0, 2%, 76%, 0.954);
+    font-size: 1.5vh;
+    padding: 15%;
+  }
+
+  .letter-colorc{
+    background-color:#aacabf ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid hsla(0, 2%, 76%, 0.954);
+    font-size: 1.5vh;
+    padding: 15%;
+    cursor: pointer;
+  }
+
+  .letter-colord{
+    background-color: #514c33;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid hsla(0, 2%, 76%, 0.954);
+    font-size: 1.5vh;
+    padding: 15%;
+    cursor: pointer;
+  }
+
+  .letter-colore{
+    background-color: #cfbfa6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid hsla(0, 0%, 5%, 0.954);
+    font-size: 1.5vh;
+    padding: 15%;
+    cursor: pointer;
+  }
+
+  .letter-colorf{
+    background-color: #3d4f4d;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid hsla(0, 2%, 76%, 0.954);
+    font-size: 1.5vh;
+    padding: 15%;
+    cursor: pointer;
+  }
+
+  .letter-colorg{
+    background-color: #a69e7d;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid hsla(0, 2%, 76%, 0.954);
+    font-size: 1.5vh;
+    padding: 15%;
+    cursor: pointer;
+  }
+
+  .letter-colorh{
+    background-color: #171717;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid hsla(0, 2%, 76%, 0.954);
+    font-size: 1.5vh;
+    padding: 15%;
+    cursor: pointer;
+  }
