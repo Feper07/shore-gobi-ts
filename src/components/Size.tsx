@@ -13,8 +13,9 @@
         setSelectedSize(size); 
       } 
     } 
+        /*this part is for the different size*/
 
-    return ( 
+        return ( 
       <div className='main-size'> 
         <div className='title-size'> 
           <p> Size</p> 
